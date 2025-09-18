@@ -39,3 +39,34 @@ footer {
   text-align: center;
   padding: 10px;
 }
+table {
+  width: 80%;
+  border-collapse: collapse; /* no double borders */
+  margin: 20px auto;
+}
+
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #444;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; /* zebra stripes */
+}
+
+tfoot {
+  font-weight: bold;
+  background-color: #ddd;
+}
+
